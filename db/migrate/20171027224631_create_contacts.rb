@@ -3,10 +3,10 @@ class CreateContacts < ActiveRecord::Migration[5.0]
     create_table :contacts do |t|
       t.string :name
       t.string :email
-      t.references :kind, foreign_key: true
+      t.references :kind, index: true, foreign_key: true
       t.text :rmk
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

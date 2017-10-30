@@ -31,3 +31,7 @@
 <br>
 
 <%= link_to 'New Contact', new_contact_path %>
+
+<h1><%= @meu_nome %></h1>
+
+<%= render partial: "/contacts/shared/teste", locals: {nome: @meu_nome} %>

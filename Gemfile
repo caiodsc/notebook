@@ -11,8 +11,8 @@ gem 'rails', '~> 5.0.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Tradutor
-gem 'i18n'
-# Faker
+gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
+# # Faker
 gem 'faker'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'

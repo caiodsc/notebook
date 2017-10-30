@@ -8,15 +8,3 @@ services:
       - .:/notebook
     ports:
       - "3000:3000"
-
-  redis:
-    image: redis:3.2-alpine
-    command: redis-server --port 7479
-    ports:
-      - "7479:7479"
-
-  sidekiq:
-    build: .
-    command: bundle exec sidekiq
-    depends_on:
-      - redis

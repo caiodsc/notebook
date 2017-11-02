@@ -16,6 +16,8 @@ gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
 gem 'faker'
 # Gerador de Lero-Lero
 gem 'lerolero_generator'
+# Gem cocoon
+gem 'cocoon'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

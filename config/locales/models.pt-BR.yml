@@ -7,6 +7,9 @@
       address:
         one: Endereço
         other: Endereços
+      phone:
+        one: Telefone
+        other: Telefones
     attributes:
       address: &address
         street: "Rua"
@@ -21,4 +24,6 @@
         kind_id: "Tipo de Contato"
         rmk: "Obs."
         <<: *address
+      phone:
+        phone: "Telefone"
       # will translate User attribute "login" as "Handle"

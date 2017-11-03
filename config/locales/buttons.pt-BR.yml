@@ -3,4 +3,5 @@ pt-BR:
     show: "Mostrar"
     edit: "Editar"
     destroy: "Apagar"
+    delete: "Apagar"
     new: "Novo"

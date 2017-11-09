@@ -10,7 +10,12 @@
       phone:
         one: Telefone
         other: Telefones
+      kind:
+        one: Tipo
+        other: Tipos
     attributes:
+      kind:
+        description: "Descrição"
       address: &address
         street: "Rua"
         city: "Cidade"

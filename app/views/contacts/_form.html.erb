@@ -1,5 +1,6 @@
+<br/>
 <%= form_for(@contact, html: { class: "basic-grey" }) do |f| %>
-    <h1>Contacts</h1>
+    <h1>Contatos</h1>
 
     <div class="field">
       <%= f.label :name %><br>
@@ -33,7 +34,7 @@
           <%= render partial: "phone_fields", locals: {f: phones_fields} %>
       <% end %>
       <div class="field">
-        <%= f.label :phones, ">" %><br>
+        <%= f.label :phones, "<span class='glyphicon glyphicon-earphone' aria-hidden='true'></span>".html_safe %><br>
         <%= link_to_add_association('[Adicionar Novo Telefone]', f, :phones)%>
       </div>
 
@@ -52,8 +53,8 @@
       <%= f.text_area :rmk %>
     </div>
     <div class="field">
-      <%= f.submit "Enviar", class: "button" %>
-      <%= link_to 'Back', contacts_path, class: "button"%>
+      <%= f.submit "Enviar", class: "btn btn-primary" %>
+      <%= link_to 'Voltar', contacts_path, class: "btn btn-success"%>
     </div>
 
     <% if @contact.errors.any? %>

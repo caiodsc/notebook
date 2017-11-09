@@ -3,3 +3,6 @@ pt-BR:
     confirm: "Tem certeza?"
     listing: "Listando"
     errors: "erros ocorreram..."
+    created: "Contato criado com sucesso!"
+    updated: "Contato atualizado com sucesso!"
+    destroyed: "Contato excluído com sucesso!"

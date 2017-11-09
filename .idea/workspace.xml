@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43f13c7e-ef34-4345-a43c-0b9d4ed0135f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/notebook.iml" afterPath="$PROJECT_DIR$/.idea/notebook.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -925,7 +924,7 @@
       <workItem from="1510169508879" duration="1734000" />
       <workItem from="1510188930456" duration="2780000" />
       <workItem from="1510192661135" duration="1796000" />
-      <workItem from="1510237751506" duration="13960000" />
+      <workItem from="1510237751506" duration="14024000" />
     </task>
     <task id="LOCAL-00001" summary="Scaffolds.">
       <created>1509144854617</created>
@@ -1053,11 +1052,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510258337336</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Codeship teste.">
+      <created>1510259040983</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1510259040983</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125146000" />
+    <option name="totallyTimeSpent" value="125210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,10 +1118,10 @@
     <MESSAGE value="Adicionando Bootstrap à aplicação." />
     <MESSAGE value="Finalizando a aplicaçã." />
     <MESSAGE value="Commit final." />
-    <MESSAGE value="Codeship teste." />
     <MESSAGE value="Codeship teste 2." />
     <MESSAGE value="Codeship teste 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Codeship teste 3." />
+    <MESSAGE value="Codeship teste." />
+    <option name="LAST_COMMIT_MESSAGE" value="Codeship teste." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

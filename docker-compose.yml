@@ -1,19 +1,9 @@
-version: '2'
-
+version: '3'
 services:
-  postgres:
-    image: 'postgres:9.5'
-    volumes:
-      - 'postgres:/var/lib/postgresql/data'
-
-  website:
-    depends_on:
-      - 'postgres'
+  web:
     build: .
-    ports:
-      - '3000:3000'
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
     volumes:
-      - '.:/usr/src/app'
-
-volumes:
-  postgres:
+      - .:/notebook
+    ports:
+      - "3000:3000"

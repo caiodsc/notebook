@@ -10,8 +10,6 @@ end
 gem 'rails', '~> 5.0.1'
 # Bower
 gem 'bower-rails', '~> 0.11.0'
-# Bundler
-gem 'bundler'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Tradutor

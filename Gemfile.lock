@@ -195,7 +195,6 @@ PLATFORMS
 
 DEPENDENCIES
   bower-rails (~> 0.11.0)
-  bundler
   byebug
   cocoon
   coffee-rails (~> 4.2)

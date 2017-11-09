@@ -12,6 +12,8 @@ gem 'rails', '~> 5.0.1'
 gem 'bower-rails', '~> 0.11.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# NotifyJs from Rails Assets
+gem 'rails-assets-notifyjs', source: 'http://insecure.rails-assets.org'
 # Tradutor
 gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
 # Faker

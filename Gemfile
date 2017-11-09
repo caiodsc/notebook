@@ -12,7 +12,7 @@ gem 'rails', '~> 5.0.1'
 # Bower
 gem 'bower-rails', '~> 0.11.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
 # Bootstrap from Rails Assets
 gem 'rails-assets-bootstrap', source: 'http://insecure.rails-assets.org'
 # NotifyJs from Rails Assets
@@ -55,6 +55,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pg'
 end
 
 group :development do
@@ -66,6 +67,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Rails >= 3 pry initializer
   gem 'pry-rails'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

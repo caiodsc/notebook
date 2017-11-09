@@ -12,6 +12,8 @@ gem 'rails', '~> 5.0.1'
 gem 'bower-rails', '~> 0.11.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Bootstrap from Rails Assets
+gem 'rails-assets-bootstrap', source: 'http://insecure.rails-assets.org'
 # NotifyJs from Rails Assets
 gem 'rails-assets-notifyjs', source: 'http://insecure.rails-assets.org'
 # Tradutor

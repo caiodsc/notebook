@@ -30,7 +30,8 @@
 <%= paginate @contacts %>
 <br>
 
-<%= link_to t('buttons.new'), new_contact_path %>
+<%= link_to t('buttons.new'), new_contact_path, class: "btn btn-primary" %>
+<%= link_to t('buttons.home'), root_path, class: "btn btn-success" %>
 <!--
 <h1><%= @meu_nome %></h1>
 

@@ -158,6 +158,8 @@
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.3, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.0.6, ruby-2.2.6-p396) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-bootstrap (v3.3.7, ruby-2.2.6-p396) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-jquery (v3.2.1, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-notifyjs (v0.4.2, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.3, ruby-2.2.6-p396) [gem]" level="application" />
